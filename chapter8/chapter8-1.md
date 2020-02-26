@@ -190,7 +190,7 @@ Readable流可以产出数据，你可以将这些数据传送到一个writable�
 
 	process.stdin.on('readable', function () {
 	    var buf = process.stdin.read();
-	    console.dir(buf);
+	    console.log(buf);
 	});
 	
 代码运行结果如下所示：
